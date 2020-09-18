@@ -216,3 +216,8 @@ else
 	/// @DnDArgument : "var" "is_attacked"
 	is_attacked = 0;
 }
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7A447ECE
+variable = 0;
