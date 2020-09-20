@@ -128,7 +128,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "double_click_W",
+            "varName": "double_click_up",
             "varType": 0
         },
         {
@@ -142,7 +142,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "double_click_A",
+            "varName": "double_click_left",
             "varType": 0
         },
         {
@@ -156,7 +156,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "double_click_S",
+            "varName": "double_click_down",
             "varType": 0
         },
         {
@@ -170,7 +170,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "double_click_D",
+            "varName": "double_click_right",
             "varType": 0
         },
         {
@@ -184,7 +184,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "double_click_W_timer",
+            "varName": "double_click_up_timer",
             "varType": 0
         },
         {
@@ -198,7 +198,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "double_click_A_timer",
+            "varName": "double_click_left_timer",
             "varType": 0
         },
         {
@@ -212,7 +212,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "double_click_S_timer",
+            "varName": "double_click_down_timer",
             "varType": 0
         },
         {
@@ -226,7 +226,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "double_click_D_timer",
+            "varName": "double_click_right_timer",
             "varType": 0
         },
         {

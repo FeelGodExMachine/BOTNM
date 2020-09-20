@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 014E9B13
-/// @DnDArgument : "script" "Dash"
+/// @DnDArgument : "script" "dashInitiator"
 /// @DnDArgument : "arg" "1"
-/// @DnDSaveInfo : "script" "f3634d8d-0428-45e5-b22b-6c1b017e85a3"
-script_execute(Dash, 1);
+/// @DnDSaveInfo : "script" "3263a186-68d8-454c-b52e-9dbc8ba5abe1"
+script_execute(dashInitiator, 1);
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "3263a186-68d8-454c-b52e-9dbc8ba5abe1",
+            "Value": {
+                "id": "f5194f81-d54e-4797-862d-947acb141f52",
+                "resourcePath": "scripts\\dashInitiator\\dashInitiator.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "371c5dd1-ee3b-4fa1-a364-504edc7c1b9c",
             "Value": {
                 "id": "f7b0826e-12c5-4ed3-bebf-225b34453c80",
@@ -119,6 +127,14 @@
             }
         },
         {
+            "Key": "4d3d80b3-3812-4525-90be-7a777d30710f",
+            "Value": {
+                "id": "01112107-cc75-42f7-a47f-c4dc6041b7ff",
+                "resourcePath": "scripts\\dashClickCheck\\dashClickCheck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "56303079-bad9-4c21-bc7a-ddcbd26907a6",
             "Value": {
                 "id": "821578a9-6bc1-40d7-ae7f-66578a4d7d99",
@@ -140,6 +156,14 @@
                 "id": "a59323eb-f5cb-4e02-bd36-78d374921232",
                 "resourcePath": "objects\\Pl22\\Pl22.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6626de3c-8f23-4ea3-b62c-18bea4ab8d56",
+            "Value": {
+                "id": "67226f13-bbf8-41d8-b217-1c2a0a0751e4",
+                "resourcePath": "scripts\\doubleClickCheck\\doubleClickCheck.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -204,6 +228,14 @@
                 "id": "303302b0-7798-41cf-b9b0-874947f3a3df",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "84f44a70-e3a3-4cd3-b9c2-f489c45f88f0",
+            "Value": {
+                "id": "58bc5242-7199-431c-9a0e-34fedcd7a366",
+                "resourcePath": "scripts\\dashAndCdCheck\\dashAndCdCheck.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -303,14 +335,6 @@
             }
         },
         {
-            "Key": "cc244070-3e2d-4113-92dd-3fa285ac8fb4",
-            "Value": {
-                "id": "044ba2f7-bf88-468b-b9f8-097281e912c8",
-                "resourcePath": "scripts\\Dash_v2\\Dash_v2.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "49a7395b-2678-4198-8fe0-e1a39879e281",
@@ -351,6 +375,14 @@
             }
         },
         {
+            "Key": "de50ac2f-e489-48bd-ae75-67ccbb1e6729",
+            "Value": {
+                "id": "f56e345f-b6d2-403d-abe8-465c2a7e42d3",
+                "resourcePath": "scripts\\dashTimer\\dashTimer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "04fbb619-6ae3-4ddc-ab2d-a77bb56174c4",
@@ -375,10 +407,18 @@
             }
         },
         {
+            "Key": "f3589f89-1a05-4481-b5d4-109244923953",
+            "Value": {
+                "id": "46aef3ca-1446-4f7e-98be-7205ef251241",
+                "resourcePath": "views\\f3589f89-1a05-4481-b5d4-109244923953.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f3634d8d-0428-45e5-b22b-6c1b017e85a3",
             "Value": {
                 "id": "4ff6f8e3-3b88-49d2-ab8a-e953ebf7ec01",
-                "resourcePath": "scripts\\Dash\\Dash.yy",
+                "resourcePath": "scripts\\old_dash\\old_dash.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -432,8 +472,12 @@
         }
     ],
     "script_order": [
-        "f3634d8d-0428-45e5-b22b-6c1b017e85a3",
-        "cc244070-3e2d-4113-92dd-3fa285ac8fb4"
+        "4d3d80b3-3812-4525-90be-7a777d30710f",
+        "3263a186-68d8-454c-b52e-9dbc8ba5abe1",
+        "de50ac2f-e489-48bd-ae75-67ccbb1e6729",
+        "84f44a70-e3a3-4cd3-b9c2-f489c45f88f0",
+        "6626de3c-8f23-4ea3-b62c-18bea4ab8d56",
+        "f3634d8d-0428-45e5-b22b-6c1b017e85a3"
     ],
     "tutorial": ""
 }
