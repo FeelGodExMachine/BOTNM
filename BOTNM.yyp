@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "92fc0fb5-25b0-4046-8ae2-1124d6e8db7c",
+            "Value": {
+                "id": "f3b5c7fe-0203-48d4-91e0-ef196ba0a77f",
+                "resourcePath": "objects\\Wall\\Wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "d1c6ca2e-dc7a-4cdd-a776-8cc35d6eefa8",
@@ -316,6 +324,14 @@
                 "id": "c2be16ab-85cd-4535-93a5-9248349dc7b0",
                 "resourcePath": "objects\\Camera\\Camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "985869ae-1f1f-4108-a4ce-5f5ab487fa2c",
+            "Value": {
+                "id": "31d365a7-825b-400c-a1b3-b4a9979ca235",
+                "resourcePath": "sprites\\KiritoWall\\KiritoWall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
