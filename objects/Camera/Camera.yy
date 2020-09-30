@@ -55,6 +55,48 @@
             "value": "1",
             "varName": "zoom_factor",
             "varType": 0
+        },
+        {
+            "id": "c19a6687-c8cb-4a34-a3f1-67ac63a1bebe",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.45",
+            "varName": "min_zoom",
+            "varType": 0
+        },
+        {
+            "id": "73ff247c-5d9d-4096-b7fe-98e19a650419",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1.5",
+            "varName": "max_zoom",
+            "varType": 0
+        },
+        {
+            "id": "48bd8054-3e29-45e5-b99a-c53b848a995b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.05",
+            "varName": "smooth",
+            "varType": 0
         }
     ],
     "solid": false,

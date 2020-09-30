@@ -5,7 +5,7 @@
 
 //Проверка, кнопка какого игрока нажата
 keys = array_create(0, 0)
-if (argument0 == 1) {
+if (argument0 = "1") {
     keys[0] = ord("W")
     keys[1] = ord("A")
     keys[2] = ord("S")
@@ -19,7 +19,7 @@ if (argument0 == 1) {
 
 //Если во время таймера не произошел дабл клик, счетчик кликов сбрасывается
 for (var i = 0; i < 4; ++i)
-	if (click_counters[i] > 0 && click_timers[i] == 0) click_counters[i] = 0
+	if (click_counters[i] > 0 && click_timers[i] == 0) click_counters[i] = 0;
 
 if (dash_cooldown = 0) {
 	//Счетчик кликов
@@ -35,16 +35,16 @@ if (dash_cooldown = 0) {
 		if (doubleClickCheck(click_counters[i], click_timers[i])) {
 		    switch (i) {
 			    case 0:
-			        if(dashAndCdCheck()) dash_speed_y = -1 * dash_max_speed
+			        y -= dashAndCdCheck()
 			        break;
 				case 1:
-					if(dashAndCdCheck()) dash_speed_x = -1 * dash_max_speed
+					x -= dashAndCdCheck()
 					break;
 				case 2:
-					if(dashAndCdCheck()) dash_speed_y = dash_max_speed
+					y += dashAndCdCheck()
 					break;
 				case 3:
-					if(dashAndCdCheck()) dash_speed_x = dash_max_speed
+					x += dashAndCdCheck()
 					break;
 			}
 		click_counters[i] = 0;    
@@ -54,7 +54,7 @@ if (dash_cooldown = 0) {
 
 //Уменьшение таймера со временем
 for (var i = 0; i < 4; ++i)
-    if (click_timers[i] > 0) click_timers[i]--
+    if (click_timers[i] > 0) click_timers[i]--;
 
 //Уменьшение кд со временем
 if (dash_cooldown > 0)

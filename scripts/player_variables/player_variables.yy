@@ -1,8 +1,8 @@
 {
-    "id": "1df9c269-63a5-4818-8c7d-dae7f03fb8b6",
+    "id": "0b9f2826-7582-4189-9d0a-503c97141c9c",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "dashInitiator",
+    "name": "player_variables",
     "IsCompatibility": false,
     "IsDnD": false
 }
