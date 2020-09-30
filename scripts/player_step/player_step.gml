@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1B8857C0
-/// @DnDArgument : "code" "//argument0 - игрок (1 - первый, 2 - второй)$(13_10)$(13_10)if (argument0 == 1) {$(13_10)	key_up = ord("W")$(13_10)	key_left = ord("A")$(13_10)	key_down = ord("S")$(13_10)	key_right = ord("D")$(13_10)	key_attack = ord("B")$(13_10)	key_block = ord("N")$(13_10)	key_destroy_block = ord("M")$(13_10)	another_player = Pl2$(13_10)} else {$(13_10)	key_up = vk_up$(13_10)	key_left = vk_left$(13_10)	key_down = vk_down$(13_10)	key_right = vk_right$(13_10)	key_attack = vk_home$(13_10)	key_block = vk_pageup  //pageup так как end у меня не работает$(13_10)	key_destroy_block = vk_pagedown$(13_10)	another_player = Pl1$(13_10)}$(13_10)"
+/// @DnDArgument : "code" "//argument0 - игрок (1 - первый, 2 - второй)$(13_10)$(13_10)if (argument0 == 1) {$(13_10)	key_up = ord("W")$(13_10)	key_left = ord("A")$(13_10)	key_down = ord("S")$(13_10)	key_right = ord("D")$(13_10)	key_attack = ord("B")$(13_10)	key_block = ord("N")$(13_10)	key_destroy_block = ord("M")$(13_10)	another_player = Pl2$(13_10)} else {$(13_10)	key_up = vk_up$(13_10)	key_left = vk_left$(13_10)	key_down = vk_down$(13_10)	key_right = vk_right$(13_10)	key_attack = vk_home$(13_10)	key_block = vk_pageup  //pageup, так как end у меня не работает$(13_10)	key_destroy_block = vk_pagedown$(13_10)	another_player = Pl1$(13_10)}$(13_10)"
 //argument0 - игрок (1 - первый, 2 - второй)
 
 if (argument0 == 1) {
@@ -19,7 +19,7 @@ if (argument0 == 1) {
 	key_down = vk_down
 	key_right = vk_right
 	key_attack = vk_home
-	key_block = vk_pageup  //pageup так как end у меня не работает
+	key_block = vk_pageup  //pageup, так как end у меня не работает
 	key_destroy_block = vk_pagedown
 	another_player = Pl1
 }
@@ -112,6 +112,13 @@ if(block_disable <= 100)
 		x_speed = maximum_speed;
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 756AF7DE
+/// @DnDArgument : "script" "collision_detect"
+/// @DnDSaveInfo : "script" "249825c4-4528-4c78-9fd2-db9220aaa337"
+script_execute(collision_detect);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

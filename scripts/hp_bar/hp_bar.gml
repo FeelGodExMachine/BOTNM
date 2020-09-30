@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 6297F120
-/// @DnDArgument : "code" "//argument0 - игрок (1 - первый, 2 - второй)$(13_10)var smooth = 0.1$(13_10)$(13_10)if(argument0 == 1){$(13_10)	player = Pl1$(13_10)	another_player = Pl2$(13_10)	sprites = array_create(5)$(13_10)	sprites[0] = RB4$(13_10)	sprites[1] = RB3$(13_10)	sprites[2] = RB2$(13_10)	sprites[3] = RB1$(13_10)	sprites[4] = RB0$(13_10)} else {$(13_10)	player = Pl2$(13_10)	another_player = Pl1$(13_10)	sprites = array_create(5)$(13_10)	sprites[0] = BB4$(13_10)	sprites[1] = BB3$(13_10)	sprites[2] = BB2$(13_10)	sprites[3] = BB1$(13_10)	sprites[4] = BB0$(13_10)}$(13_10)$(13_10)x = player.x;$(13_10)y = player.y;$(13_10) $(13_10)new_image_angle = point_direction(x, y, another_player.x, another_player.y);$(13_10)delta = (new_image_angle - image_angle) mod 360$(13_10)$(13_10)if (delta > 180) delta -= 360$(13_10)else if (delta < -180) delta += 360$(13_10)$(13_10)image_angle += delta * smooth$(13_10)show_debug_message(image_angle)$(13_10)if(image_angle > 360) image_angle -= 360;$(13_10)if(image_angle < -360) image_angle += 360;$(13_10)$(13_10)"
+/// @DnDArgument : "code" "//argument0 - игрок (1 - первый, 2 - второй)$(13_10)var smooth = 0.1$(13_10)$(13_10)if(argument0 == 1){$(13_10)	player = Pl1$(13_10)	another_player = Pl2$(13_10)	sprites = array_create(5)$(13_10)	sprites[0] = RB4$(13_10)	sprites[1] = RB3$(13_10)	sprites[2] = RB2$(13_10)	sprites[3] = RB1$(13_10)	sprites[4] = RB0$(13_10)} else {$(13_10)	player = Pl2$(13_10)	another_player = Pl1$(13_10)	sprites = array_create(5)$(13_10)	sprites[0] = BB4$(13_10)	sprites[1] = BB3$(13_10)	sprites[2] = BB2$(13_10)	sprites[3] = BB1$(13_10)	sprites[4] = BB0$(13_10)}$(13_10)$(13_10)x = player.x;$(13_10)y = player.y;$(13_10) $(13_10)new_image_angle = point_direction(x, y, another_player.x, another_player.y);$(13_10)delta = (new_image_angle - image_angle) mod 360$(13_10)$(13_10)if (delta > 180) delta -= 360$(13_10)else if (delta < -180) delta += 360$(13_10)$(13_10)image_angle += delta * smooth$(13_10)if(image_angle > 360) image_angle -= 360;$(13_10)if(image_angle < -360) image_angle += 360;$(13_10)$(13_10)"
 //argument0 - игрок (1 - первый, 2 - второй)
 var smooth = 0.1
 
@@ -35,7 +35,6 @@ if (delta > 180) delta -= 360
 else if (delta < -180) delta += 360
 
 image_angle += delta * smooth
-show_debug_message(image_angle)
 if(image_angle > 360) image_angle -= 360;
 if(image_angle < -360) image_angle += 360;
 
